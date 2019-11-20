@@ -1,6 +1,6 @@
 {
   "name": "egg-antispider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "常见爬虫拦截egg插件",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
