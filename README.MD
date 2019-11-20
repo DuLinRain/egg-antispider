@@ -41,7 +41,7 @@
 # Usage
 
     // {app_root}/config/plugin.js
-    exports.cors = {
+    exports.antispider = {
         enable: true,
         package: 'egg-antispider',
     };
@@ -49,8 +49,8 @@
 # Configuration
 Support all configurations in antispider(https://www.npmjs.com/package/antispider).
 
-// {app_root}/config/config.default.js
-exports.antispider = {
-    spider_flag: [], // 自定义额外的spider，小写
-    threshold: 1 // 自定义按概率进行拦截的 Math.random() < threshold 才拦截
-};
+    // {app_root}/config/config.default.js
+    exports.antispider = {
+        spider_flag: [], // 自定义额外的spider，小写
+        threshold: 1 // 自定义按概率进行拦截的 Math.random() < threshold 才拦截
+    };
