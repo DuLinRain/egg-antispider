@@ -1,0 +1,30 @@
+{
+  "name": "egg-antispider",
+  "version": "1.0.0",
+  "description": "常见爬虫拦截egg插件",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eggPlugin": {
+    "name": "antispider"
+  },
+  "files": [
+    "app",
+    "config",
+    "app.js"
+  ],
+  "dependencies": {
+    "antispider": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuLinRain/egg-antispider.git"
+  },
+  "keywords": ["antipsider", "egg-antispider"],
+  "author": "DuLinRain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuLinRain/egg-antispider/issues"
+  },
+  "homepage": "https://github.com/DuLinRain/egg-antispider#readme"
+}
